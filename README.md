@@ -16,5 +16,6 @@ Edit the variables defined in the top part of `YTDownloader.py`
 * `FFMPEG_PATH`: The absolute path of `ffmpeg.exe`.
 * `SAVE_PATH`: The absolute path the output file will save in.
 * `LINK`: URL of the video
-* `SAVE_INTERMEDIATED_FILE`: default is false, if it is true, the seperated audio and video files will not be deleted after the combination.
-The you can run with `python YTDownloader.py`
+* `SAVE_INTERMEDIATED_FILE`: default is false, if it is true, the seperated audio and video files will not be deleted after the combination.  
+  
+Then you can run with `python YTDownloader.py`

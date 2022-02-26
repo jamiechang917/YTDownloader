@@ -2,13 +2,13 @@
 A simple downloader based on Pytube for Youtube videos 
 
 ## Installation
-1. Install `pytube` package
+1. Install `pytube` package  
 `pip install pytube`
 
-2. Install FFmpeg
+2. Install FFmpeg  
 You can found in the [FFmpeg official website](https://www.ffmpeg.org/). Install FFmpeg and make sure the environmental variables (`PATH`) includes the path of `ffmpeg.exe`.
 
-3. Install `ffmpeg` package
+3. Install `ffmpeg` package  
 `pip install ffmpeg-python`
 
 ## Run the script

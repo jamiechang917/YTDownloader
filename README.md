@@ -1,6 +1,8 @@
 # YTDownloader
 A simple downloader based on Pytube for Youtube videos 
 
+![](./example.png)
+
 ## Installation
 1. Install `pytube` package  
 `pip install pytube`

@@ -1,4 +1,5 @@
 import os
+import sys
 from pytube import YouTube
 from pytube.cli import on_progress
 from pytube.helpers import safe_filename
@@ -112,4 +113,6 @@ def main():
     print(f"{GREEN}Done (output=\"{output_file}\"){RESET}")
     
 if __name__ == '__main__':
+    if len(sys.argv) != 1:
+        LINK = sys.argv[1]
     main()
